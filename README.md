@@ -51,33 +51,25 @@ select gitbash from plus button:
 
 
 Requirements:
+
 	1. MySQL Installation 
- 
 	2. Visual Studio Code Setup
- 
 	3. Python Installation
- 
 	4. Django Installation
    
 Common Extensions for Django Development in VS Code:  
+
 	1. Python Extension
- 
 	2. Django Extension
- 
 	3. Git Extension  
- 
 	4. Database Extension (optional)
  
 Clone or download this repository to your local machine:
 
-1)Navigate to the project directory using the terminal in VS Code.  
-
-2)Set up your MySQL database configurations in your Django project's settings.
-
-3)Run migrations using the python manage.py migrate command.  
-
-4)Create a superuser using the python manage.py createsuperuser command.
-
-5)Start the development server with python manage.py runserver.
+	1)Navigate to the project directory using the terminal in VS Code.  
+	2)Set up your MySQL database configurations in your Django project's settings.
+	3)Run migrations using the python manage.py migrate command.  
+	4)Create a superuser using the python manage.py createsuperuser command.
+	5)Start the development server with python manage.py runserver.
 
 
