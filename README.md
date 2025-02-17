@@ -34,7 +34,9 @@ select gitbash from plus button:
       in url patterns:  
           add,  
           path('',include("app-name.urls")),  
-
+>go to views.py click on views.py and create a new file called "urls.py"
+in the created urls.py file enter the below codes:
+>from.import views
 
 Requirements:
 
