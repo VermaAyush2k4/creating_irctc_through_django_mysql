@@ -51,33 +51,22 @@ select gitbash from plus button:
 
 
 Requirements:
-1. MySQL Installation:    
-2. Visual Studio Code Setup
-3. Python Installation
-4. Django Installation
-Run the following command to install Django using pip:  
-Copy code  
-pip install Django  
+	1. MySQL Installation  
+	2. Visual Studio Code Setup
+	3. Python Installation
+	4. Django Installation
+   
 Common Extensions for Django Development in VS Code:  
-1. Python Extension:  
-Install the "Python" extension by Microsoft from the VS Code marketplace.  
-This extension provides code analysis, debugging, and other features for Python development.  
-2. Django Extension:  
-Install the "Django" extension by Baptiste Darthenay from the VS Code marketplace.  
-This extension adds features specifically tailored for Django development, including template language support, code snippets, and more.  
-3. Git Extension:  
-If not already installed, install the "GitLens" extension by Eric Amodio.  
-This extension enhances Git integration within VS Code, providing inline blame annotations, code lens for Git information, and more.  
-4. Database Extension (optional):  
-Install a database extension like "SQLite" or "MySQL" to interact with your database directly from VS Code.  
-Search for and install the appropriate extension for your chosen database.  
-Running the Project:  
+	1. Python Extension  
+	2. Django Extension
+	3. Git Extension  
+	4. Database Extension (optional)
+ 
 Clone or download this repository to your local machine.  
-Navigate to the project directory using the terminal in VS Code.  
-Set up your MySQL database configurations in your Django project's settings.  
-Run migrations using the python manage.py migrate command.  
-Create a superuser using the python manage.py createsuperuser command.
-Start the development server with python manage.py runserver.
-Access the project in your web browser at http://127.0.0.1:8000/
+1)Navigate to the project directory using the terminal in VS Code.  
+2)Set up your MySQL database configurations in your Django project's settings.  
+3)Run migrations using the python manage.py migrate command.  
+4)Create a superuser using the python manage.py createsuperuser command.
+5)Start the development server with python manage.py runserver.
+6)Access the project in your web browser at http://127.0.0.1:8000/
 
-This README file provides a basic guide to set up your development environment for a Django project using MySQL, VS Code, and essential VS Code extensions. Remember to customize the instructions according to the specifics of your project.
