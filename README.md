@@ -34,20 +34,6 @@ select gitbash from plus button:
       in url patterns:  
           add,  
           path('',include("app-name.urls")),  
-> go to views.py click on views.py and create a new file called "urls.py"  
-    in the created urls.py file enter the below codes:  
-	from.import views  
-	from django.urls import path  
-
-	urlpatterns = [  
-		path("",views.file-name, name="file-name"),  
-		]  
-> go to views.py  
-     type the below code:  
-
-	def file-name(request):  
-		context={}  
-		return render(request, "app-name/file-name.html", context)  
 
 
 Requirements:
