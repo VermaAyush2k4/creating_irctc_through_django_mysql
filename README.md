@@ -50,19 +50,11 @@ select gitbash from plus button:
 		return render(request, "app-name/file-name.html", context)  
 
 
-  Installation and Setup Guide  
-1. MySQL Installation:  
-Download and install MySQL from the official website: https://dev.mysql.com/downloads/installer/  
-Follow the installation instructions for your operating system.  
-During the installation, set a root password for MySQL.  
-2. Visual Studio Code Setup:  
-Download and install Visual Studio Code (VS Code) from: https://code.visualstudio.com/  
-Open VS Code.  
-3. Python Installation:  
-Download and install Python from the official website: https://www.python.org/downloads/  
-During installation, make sure to check the option to add Python to your system's PATH.  
-4. Django Installation:  
-Open a terminal in VS Code.  
+Requirements:
+1. MySQL Installation:    
+2. Visual Studio Code Setup
+3. Python Installation
+4. Django Installation
 Run the following command to install Django using pip:  
 Copy code  
 pip install Django  
